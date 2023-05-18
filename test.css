@@ -1,0 +1,35 @@
+*{
+    background-color: black;
+    text-transform: capitalize;
+}   
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid wheat;
+
+}
+h1{
+    color: white;
+    cursor: context-menu;
+    transition: all 2s ease-in-out;
+    transition: transform X,Y(-50,+50);
+    width: 30%;
+    border: 2px solid white ;
+    content: "";
+    
+
+}
+
+
+
+h1:hover{
+    border-bottom: 2px solid rgb(224, 207, 22);
+    width: 100%;
+}
